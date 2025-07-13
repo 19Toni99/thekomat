@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
   
   <!-- Favicon -->
-  <link rel="icon" href="LOGOTHEKOMAT.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.png" type="image/png">
 
   <style>
     .gradient-bg {
@@ -41,6 +41,7 @@
       100% { opacity: 1; }
     }
   </style>
+  <meta name="theme-color" content="#1e3a8a" />
 </head>
 <body class="font-sans text-gray-800">
 
@@ -84,10 +85,10 @@
 <section id="home" class="gradient-bg pt-16">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
     <div class="text-center text-white">
-      <h2 class="text-5xl md:text-6xl font-bold mb-6">
+      <h2 class="text-3xl sm:text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
         Verkaufsautomaten für <span class="text-green-300">Ihr Unternehmen</span>
       </h2>
-      <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-green-100">
+      <p class="text-base sm:text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-green-100">
         Seit über 30 Jahren bemühen wir uns für jeden unserer Kunden das passende Angebot zu finden
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
@@ -108,12 +109,12 @@
 <section id="about" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-bold text-gray-800 mb-4">Über TheKoMat GmbH</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Über TheKoMat GmbH</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
         Vertrauen Sie auf mehr als drei Jahrzehnte Erfahrung im Bereich Verkaufsautomaten.
       </p>
     </div>
-    <div class="grid md:grid-cols-2 gap-12 items-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <!-- Textinhalt -->
       <div>
         <h3 class="text-3xl font-bold text-blue-800 mb-6">30+ Jahre Erfahrung</h3>
@@ -176,12 +177,12 @@
 <section id="services" class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-bold text-gray-800 mb-4">Unsere Automatenlösungen</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Unsere Automatenlösungen</h2>
       <p class="text-xl text-gray-600 whitespace-nowrap">
         Wir bieten das komplette Sortiment für Ihre Bedürfnisse – von Heißgetränken bis hin zu Snacks
       </p>
     </div>
-    <div class="grid md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       <!-- Heißgetränkeautomaten -->
       <div class="bg-white p-8 rounded-lg shadow-lg card-hover">
         <div class="text-center">
@@ -265,7 +266,7 @@
     <div class="relative max-w-4xl mx-auto">
       <img 
         :src="images[active]" 
-        class="rounded-2xl shadow-2xl w-full max-h-[500px] object-contain transition-all duration-500 bg-white" 
+        class="rounded-2xl shadow-2xl w-full max-h-[300px] sm:max-h-[400px] md:max-h-[500px] object-contain transition-all duration-500 bg-white" 
         alt="Automat">
 
       <!-- Navigation -->
@@ -293,12 +294,12 @@
 <section id="technology" class="py-20 bg-white border-t border-b border-gray-200">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-bold text-gray-800 mb-4">Starke Technik. Zwei bewährte Hersteller.</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Starke Technik. Zwei bewährte Hersteller.</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
         Für jede Anforderung die passende Lösung – dank bewährter Technik von zwei führenden Anbietern.
       </p>
     </div>
-    <div class="grid md:grid-cols-2 gap-12 items-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       <!-- Linke Spalte -->
       <div>
         <h3 class="text-3xl font-bold text-gray-800 mb-6">Bianchi & Necta – zwei Namen, ein Qualitätsversprechen</h3>
@@ -343,15 +344,15 @@
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-bold text-gray-800 mb-4">Unsere Dienstleistungen</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Unsere Dienstleistungen</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
         Flexible Lösungen für jeden Bedarf – von der Vollbetreuung bis zum individuellen Kaufmodell.
       </p>
     </div>
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
       <!-- Operating -->
       <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-        <i class="fas fa-sync-alt text-4xl text-blue-600 mb-4"></i>
+        <i class="fas fa-sync-alt text-3xl sm:text-4xl text-blue-600 mb-4"></i>
         <h3 class="text-xl font-bold text-gray-800 mb-2">Operating</h3>
         <p class="text-gray-600 text-sm">
           Wir übernehmen den kompletten Betrieb inkl. Befüllung, Wartung und Abrechnung – Sie haben keinen Aufwand.
@@ -360,7 +361,7 @@
 
       <!-- Miete -->
       <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-        <i class="fas fa-hand-holding-usd text-4xl text-blue-600 mb-4"></i>
+        <i class="fas fa-hand-holding-usd text-3xl sm:text-4xl text-blue-600 mb-4"></i>
         <h3 class="text-xl font-bold text-gray-800 mb-2">Miete</h3>
         <p class="text-gray-600 text-sm">
           Ideal für Büros, Baustellen oder Events – monatlich kalkulierbar, ohne Investitionskosten.
@@ -369,7 +370,7 @@
 
       <!-- Leasing/Kauf -->
       <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-        <i class="fas fa-shopping-cart text-4xl text-blue-600 mb-4"></i>
+        <i class="fas fa-shopping-cart text-3xl sm:text-4xl text-blue-600 mb-4"></i>
         <h3 class="text-xl font-bold text-gray-800 mb-2">Leasing / Kauf</h3>
         <p class="text-gray-600 text-sm">
           Sie möchten selbst Eigentümer sein? Wir bieten attraktive Leasing- und Kaufoptionen mit Beratung.
@@ -378,7 +379,7 @@
 
       <!-- Service/Wartung -->
       <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-        <i class="fas fa-tools text-4xl text-blue-600 mb-4"></i>
+        <i class="fas fa-tools text-3xl sm:text-4xl text-blue-600 mb-4"></i>
         <h3 class="text-xl font-bold text-gray-800 mb-2">Service & Wartung</h3>
         <p class="text-gray-600 text-sm">
           Zuverlässiger technischer Support, regelmäßige Wartung und persönliche Betreuung durch unser Team.
@@ -391,7 +392,7 @@
 <!-- CTA Section -->
 <section class="gradient-bg py-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h2 class="text-4xl font-bold text-white mb-4">Bereit für Ihre Automatenlösung?</h2>
+    <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Bereit für Ihre Automatenlösung?</h2>
     <p class="text-xl text-green-100 mb-8 max-w-3xl mx-auto">
       Überzeugen Sie sich selbst und holen Sie sich gleich Ihr individuelles Angebot ein!
     </p>
@@ -406,12 +407,12 @@
 <section id="contact" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16">
-      <h2 class="text-4xl font-bold text-gray-800 mb-4">Kontaktieren Sie uns</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">Kontaktieren Sie uns</h2>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto">
         Lassen Sie uns gemeinsam die perfekte Automatenlösung für Ihr Unternehmen finden.
       </p>
     </div>
-    <div class="grid md:grid-cols-2 gap-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
       <!-- Kontaktinfos -->
       <div>
         <h3 class="text-2xl font-bold text-gray-800 mb-6">Nehmen Sie Kontakt auf</h3>
@@ -482,7 +483,7 @@
 <!-- Footer -->
 <footer class="bg-gray-800 text-white py-16">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid md:grid-cols-3 gap-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
       <!-- Logo & Info -->
       <div>
         <h3 class="text-2xl font-bold mb-3">TheKoMat GmbH</h3>
